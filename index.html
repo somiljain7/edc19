@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>EDC BVUCOEP</title>
+	<script src="jquery.js"></script>
+	<script src="bootstrap.js"></script>
+</head>
+<style type="text/css">
+
+	/* Product Sans Family */
+
+	@font-face {
+		font-family: 'Product Sans';
+		src: url('fonts/Product Sans.ttf');
+	}
+	
+	.hero{
+		background: url('bg.jpg') center center no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.hero-content{
+		background: rgba(0, 0, 0, 0.15);
+		padding: 250px 0 15px 0;
+	}
+
+	.hero-title{
+		color: #fff;
+		font-family: 'Product Sans', sans-serif;
+		font-weight: 800;
+		font-size: 42px;
+	}
+
+	.arrow{
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%) rotate(-45deg);
+		width: 4.8em;
+		height: 4.8em;
+		border-left: 3px solid #fff;
+		border-bottom: 3px solid #fff;
+		animation: natikkingehum 15s infinite;
+	}
+
+	.icon-links{
+		margin-left: 25px;
+		padding-top: 140px;
+	}
+
+	.fa{
+		color: #fff;
+		font-size: 26px;
+	}
+
+	@keyframes natikkengehum{
+    	50%{
+    		border-left: 3px solid #13171c;
+			border-bottom: 3px solid #13171c;
+    	}
+	}
+
+</style>
+<body>
+<div class="hero">
+	<div class="hero-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 text-center hero-title">Welcome To Entrepreneurship Development Cell</div>
+			</div>
+			<div class="arrow"></div>
+			<div class="col-1 icon-links">
+				<div class="row"><i class="fa fa-facebook"></i></div><br>
+				<div class="row"><i class="fa fa-twitter"></i></div><br>
+				<div class="row"><i class="fa fa-instagram"></i></div><br>
+				<div class="row"><i class="fa fa-github"></i></div><br>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
